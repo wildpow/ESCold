@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Aileron-Bold';
+    src: url('../fonts/Aileron-Bold-webfont.woff') format('woff')
+}
+@font-face {
+    font-family: 'Aileron-LightItalic';
+    src: url('../fonts/Aileron-LightItalic-webfont.woff') format('woff')
+}
+@font-face {
+    font-family: 'Aileron-Thin';
+    src: url('../fonts/Aileron-Thin-webfont.woff') format('woff')
+}
+
+/* html {
+    font-size: 16px !important;
+} */
+/* .row {
+    margin: -.4rem;
+} */
+
+body {
+    font-family: Libre Baskervill;
+    background-color: #ECEDED;
+}
+span {
+    font-family: Aileron-LightItalic;
+}
+
+h1 {
+    color: #BABDBD;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    font-family: Aileron-Bold;
+    font-size: 1.6rem;
+}
+footer {
+    margin-top: 1rem;
+    background-color: #425E7A;
+    color: #BABDBD;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    font-family: 'Crimson Text', serif;
+}
+.tab-pane {
+    padding: .8rem;
+    background-color: #425E7A;
+    color: #ECEDED;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+#logo-text {
+    background-color: #425E7A;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    
+}
+.nav-link {
+    margin: 0;
+    padding: .3rem;
+    font-family: Aileron-Thin;
+}
+.nav-tabs {
+    margin-top: .8rem;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: #BABDBD;
+    
+    margin-right: .25em;
+    margin-left: .25em;
+}
+footer p {
+    margin: .01rem;
+}
+img {
+    max-height: 10rem;
+    position: relative;
+}
+#logo {
+    margin-bottom: -2.45rem;
+    z-index: 1000 !important;
+}
+nav a {
+    font-size: .78rem;
+    font-weight: bold;
+    color: white;
+}
+.nav-tabs .nav-link.active { 
+    font-size: 1.2rem;
+    background-color: white;
+    font-weight: bold;
+
+}
+.nav-link:hover {
+    color: #425E7A;
+}
+
+@media (min-width: 374px) {
+    nav a {
+        font-size: .8rem;
+        
+    }
+    h1 {
+        font-size: 1.95rem;
+    }
+}
+@media (min-width: 415px) {
+    nav a {
+        font-size: 1.17rem;
+        padding-left: .2rem !important;
+        padding-right: .2rem !important;
+    }
+    h1 {
+        font-size: 1.95rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    nav a {
+        font-size: 1.20rem;
+        padding-left: .8rem !important;
+        padding-right: .8rem !important;
+    }
+    h1 {
+        font-size: 2.9rem;
+    }
+ }
+
+ @media (min-width: 768px) {
+    nav a {
+        font-size: 1.60rem;
+        padding-left: 1.2rem !important;
+        padding-right: 1.2rem !important;
+    } 
+    h1 {
+         font-size: 3.6rem;  
+     }
+     img {
+        max-height: 12rem;
+     }
+     #logo {
+        margin-bottom: -3rem;
+     }
+ }
+
+ @media (min-width: 992px) {
+    h1 {
+        font-size: 5rem;  
+    } 
+    img {
+         max-height: 14rem;
+     }
+     #logo {
+        margin-bottom: -3.5rem;
+     }
+ }
