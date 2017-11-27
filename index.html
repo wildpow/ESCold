@@ -7,37 +7,39 @@
         <link href="https://fonts.googleapis.com/css?family=Arvo|Bitter|Bree+Serif|Crete+Round|Crimson+Text|Libre+Baskerville|Noto+Serif|PT+Serif|Playfair+Display|Rasa|Source+Serif+Pro|Vollkorn" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <title>E.S.C Mattress Center</title>
     </head>
 <body>
 
-<div class="container">
+<div class="container animated fadeIn">
     
-    <div class="row">
-        <div class="col text-center">
-            <img src="images/logo.png" alt="sleeping panda" class="img-fluid" id="logo">
+    <div class="row justify-content-center">
+        <div class="col-xl-10 text-center">
+            <img src="images/logo.png" alt="sleeping panda" class="img-fluid" id="logo-img">
         </div>
     </div>
 
-    <div class="row">
-            <div class="col text-center justif">
+    <div class="row justify-content-center">
+            <div class="col-xl-10 text-center justif">
                 <div class="d-flex justify-content-center">
-                <header id="logo-text" class="align-items-center align-self-end">
-                <h1 class="text-center p-3 m-0 text-nowrap"><span>E.S.C</span> Mattress Center</h1>
+                <header id="logo-text-box" class="align-items-center align-self-end">
+                <h1 class="text-center p-3 m-0 text-nowrap" id="logo-text"><span id="logo-span">E.S.C</span> Mattress Center</h1>
             </header>
             </div>
             </div>
         </div>
     
-    <div class="row">
-        <div class="col">
+    <div class="row justify-content-center">
+        <div class="col-xl-10">
                 <nav class="nav nav-tabs justify-content-center flex-nowrap" id="myTab" role="tablist">
                         <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HOME</a>
-                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">BRANDS WE CARRY</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MEET OUR TEAM</a>
+                        <a class="nav-item nav-link" id="nav-brands-tab" data-toggle="tab" href="#nav-brands" role="tab" aria-controls="nav-brands" aria-selected="false">OUR BRANDS</a>
+                        <a class="nav-item nav-link" id="nav-team-tab" data-toggle="tab" href="#nav-team" role="tab" aria-controls="nav-team" aria-selected="false">MEET OUR TEAM</a>
                       </nav>
                       <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active text-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="tab-pane animated fadeIn show active text-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                 <h3>Opening Early December 2017</h3>
                                 <address><a href="https://goo.gl/maps/oyKyrGFhY4k">
                                     10121 Evergreen Way<br>
@@ -45,7 +47,7 @@
                                     Everett WA 98204<br></a>
                                 </address>
                         </div>
-                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="tab-pane animated fadeIn" id="nav-brands" role="tabpanel" aria-labelledby="nav-brands-tab">
                                 <p>
                                         Rump pastrami filet mignon, short ribs beef ribs burgdoggen kevin landjaeger pig kielbasa
                                         brisket ball tip. Pork belly shank filet mignon salami kevin swine sirloin ground round capicola
@@ -55,33 +57,57 @@
                                         mignon ribeye. Pig spare ribs pork chop, turkey shankle landjaeger andouille sirloin chuck
                                         venison burgdoggen beef shoulder salami.</p>
                         </div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                Pig shankle shank picanha porchetta ground round, pork chop pork belly short loin.<p>
-                                Tail picanha short ribs burgdoggen prosciutto, venison drumstick bacon biltong
-                                kevin porchetta jowl beef ribs. Frankfurter leberkas meatloaf pork belly. 
-                                Short ribs corned beef jowl ground round rump venison salami pastrami flank. 
-                                Chicken meatball doner bresaola pastrami. Fatback ham cow kevin, hamburger pastrami
-                                meatball pancetta.   </p>
+                        <div class="tab-pane animated fadeIn text-center" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+                            <div class="card-deck text-center" style="color:black;">
+                                <div class="card w-60">
+                                    <p class="text-center" style="margin-top:.4rem;">
+                                    <img src="images/josh.jpg" alt="Joshua Regsby"class="img-fluid" style="border-radius: 10%; max-height: 9rem;"></p>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Joshua Regsby</h3>
+                                        <p>Likes the Giants! Also He likes sleeping and selling beds to make cheddar</p>
+                                    </div>
+                                </div>
+                                <div class="card w-60">
+                                        <p class="text-center" style="margin-top:.4rem;">
+                                        <img src="images/josh.jpg" alt="Joshua Regsby"class="img-fluid" style="border-radius: 10%; max-height: 9rem;"></p>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Joshua Regsby</h3>
+                                            <p>Likes the Giants! Also He likes sleeping and selling beds to make cheddar</p>
+                                        </div>
+                                    </div>
+                            </div>    
                         </div>
                       </div>
         </div>
     </div>
-    
-    <div class="row">
-        <div class="col">
+    <div class="row justify-content-center">
+        <div class="col-xl-10">
             <footer>
-                <p class="text-center p-3">
-                    Phone: <a href="tel:14255120017">425-512-0017</a>
-                    Fax: <a href=“fax:14255120143”>425-512-0143</a>
-                </p>
+                <div class="d-flex">
+                    <div class="p-2">
+                        <p class="p-1 text-center">
+                            Phone:<br> <a href="tel:14255120017">425-512-0017</a>
+                        </p>
+                    </div>
+                    <div class="p-2">
+                            <p class="p-1 text-center">
+                                    Fax:<br> <a href=“fax:14255120143”>425-512-0143</a>
+                            </p>
+                    </div>
+                    <div class="ml-auto p-3">
+                            <!-- <p class="p-1 text-center"> -->
+                                <a href="https://www.facebook.com/expertsleepcenters/" class="p-1">
+                                        <img src="images/FB-f-Logo__white_100.png" id="fb-icon" alt="facebook" class="img-fluid"></a>
+                    </div>
+                </div>
             </footer>
         </div>
     </div>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
