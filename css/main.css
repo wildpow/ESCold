@@ -35,6 +35,7 @@ address a:hover {
 
 /* LOGO AND TITLE */
 #logo-img {
+    margin-top: -.9rem;
     margin-bottom: -1.75rem;
     z-index: 1000 !important;
     max-height: 7rem;
@@ -43,7 +44,7 @@ address a:hover {
 
 #logo-text {
     color: #BABDBD;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
     font-family: Aileron-Bold;
     font-size: 1.3rem;
 }
@@ -109,6 +110,21 @@ address a:hover {
     box-shadow: 0 10px 6px -6px #777;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
 }
+.brands--size {
+    max-width: 5rem;
+}
+.card--img-resize {
+    margin-top: .4rem !important;
+    border-radius: 5%;
+    max-height: 200px;
+}
+.card-title {
+    margin: 0;
+}
+.card {
+    background-color: #ECEDED;
+    box-shadow: 0 10px 6px -6px #777;
+}
 address a {
     color: black;
 }
@@ -162,6 +178,9 @@ footer p {
     #logo-text {
         font-size: 2.2rem;
     }
+    .nav-link {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 768px)  and (max-width: 989px) {
@@ -173,10 +192,10 @@ footer p {
         max-height: 13rem;
     }
     .nav-link {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .nav-tabs .nav-link.active { 
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .tab-pane p{
         font-size: 1.7rem;
@@ -184,6 +203,9 @@ footer p {
     }
     h3 {
         font-size: 2.2rem !important;
+    }
+    .brands--size {
+        max-width: 8rem;
     }
 
 }
@@ -195,6 +217,7 @@ footer p {
     #logo-img {
         margin-bottom: -3.4rem;
         max-height: 14rem;
+        margin-top: -1.4rem;
     }
     .nav-link {
         font-size: 1.8rem;
@@ -219,6 +242,9 @@ footer p {
     }
     footer {
         font-size: 1.2rem;
+    }
+    .brands--size {
+        max-width: 14rem;
     }
 
 }    
