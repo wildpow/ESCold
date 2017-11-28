@@ -133,7 +133,7 @@ address a:hover {
 }
 nav {
     background-color: #BABDBD;
-    border-top-left-radius: .12rem;
+    border-top-left-radius: .11rem;
     border-top-right-radius: .11rem;
     border-bottom: 0px !important;
 }
@@ -147,11 +147,12 @@ footer {
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
     font-size: .9em;
+    letter-spacing: 1px;
     padding: 0 auto;
-    border-top-left-radius: .1rem;
-    border-top-right-radius: .1rem;
+    border-top-left-radius: .11rem;
+    border-top-right-radius: .11rem;
 }
 footer p {
     margin: .01rem;
