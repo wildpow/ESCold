@@ -129,7 +129,7 @@ address a:hover {
 }
 .card {
     background-color: #ECEDED;
-    box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px rgba(119, 119, 119, .2);
 }
 address a {
     color: black;
