@@ -15,6 +15,12 @@
 
 /* Mobile first global values */
 body {
+    /* -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    text-size-adjust:none;*/
     font-family: Libre Baskervill, serif;
     background-color: #ECEDED;
 }
@@ -83,18 +89,18 @@ address a:hover {
     margin-top: .8rem;
 }
 .nav-tabs .nav-link {
+    margin-top: -1px;
     border: 0px solid transparent !important;
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
-    background-color: #BABDBD;
+    /* background-color: #BABDBD; */
     margin-right: .25em;
     margin-left: .25em;
 }
 .nav-tabs .nav-link.active { 
-    font-size: 1rem;
+    font-size: 1rem;    
     background-color: white;
     font-weight: bold;
-
 }
 .nav-link:hover {
     background-position: 0 100%;
